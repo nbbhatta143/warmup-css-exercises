@@ -34,5 +34,13 @@
   top: 65px;
   left: 65px;
   transform: rotate(45deg);
-  z-index: 100;
+}
+.div5::after {
+  position: absolute;
+  top: 50px;
+  left: 40px;
+  background-color: white;
+  border: 2px solid white;
+  border-radius: 50%;
+  content: "★";
 }

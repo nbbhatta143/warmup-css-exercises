@@ -1,2 +1,39 @@
 .container {
+  margin: auto;
+  height: 500px;
+  width: 500px;
+}
+.interior {
+  position: relative;
+  background-color: red;
+  height: 150px;
+  width: 150px;
+}
+.div2 {
+  background-color: orange;
+  left: 200px;
+  top: -130px;
+  transform: rotate(75deg);
+}
+.div3 {
+  background-color: pink;
+  z-index: 2;
+  left: -115px;
+  top: -225px;
+  transform: rotate(120deg);
+  border: 10px solid white;
+}
+.div4 {
+  background-color: blue;
+  top: -400px;
+  transform: rotate(45deg);
+  border: 10px solid white;
+  z-index: 1;
+}
+.div5 {
+  background-color: yellow;
+  top: -475px;
+  left: 115px;
+  transform: rotate(75deg);
+  border: 10px solid white;
 }

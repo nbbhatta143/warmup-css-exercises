@@ -1,43 +1,35 @@
-.div1 {
-  position: absolute;
+.container {
+  margin: auto;
+  height: 300px;
+  width: 300px;
+}
+.interior {
+  position: relative;
+  background-color: red;
   height: 150px;
   width: 150px;
-  background-color: red;
-  margin-left: 10px;
 }
 .div2 {
-  position: absolute;
-  height: 150px;
-  width: 150px;
   background-color: orange;
-  border: 6px solid white;
-  top: 80px;
-  left: 80px;
+  border: 10px solid white;
+  top: -90px;
+  left: 60px;
 }
 .div3 {
-  position: absolute;
-  height: 150px;
-  width: 150px;
   background-color: yellow;
-  border: 6px solid white;
-  top: 160px;
-  left: 160px;
+  border: 10px solid white;
+  top: -198px;
+  left: 120px;
 }
 .div4 {
-  position: absolute;
-  height: 150px;
-  width: 150px;
   background-color: blue;
-  border: 6px solid white;
-  top: 240px;
-  left: 240px;
+  border: 10px solid white;
+  top: -310px;
+  left: 180px;
 }
 .div5 {
-  position: absolute;
-  height: 150px;
-  width: 150px;
   background-color: pink;
-  border: 6px solid white;
-  top: 320px;
-  left: 320px;
+  border: 10px solid white;
+  top: -420px;
+  left: 245px;
 }

@@ -1,46 +1,37 @@
-.div1 {
-  position: absolute;
+.container {
+  margin: auto;
+  height: 300px;
+  width: 300px;
+}
+.interior {
+  position: relative;
   background-color: blue;
-  height: 100px;
-  width: 100px;
+  height: 125px;
+  width: 125px;
 }
 .div2 {
-  position: absolute;
-  background-color: blue;
-  height: 100px;
-  width: 100px;
-  left: 125px;
+  left: 150px;
+  top: -125px;
 }
 .div3 {
-  position: absolute;
-  background-color: blue;
-  height: 100px;
-  width: 100px;
-  top: 125px;
+  top: -100px;
 }
 .div4 {
-  position: absolute;
-  background-color: blue;
-  height: 100px;
-  width: 100px;
-  top: 125px;
-  left: 125px;
+  top: -225px;
+  left: 150px;
 }
 .div5 {
-  position: absolute;
   background-color: red;
-  height: 100px;
-  width: 100px;
-  top: 65px;
-  left: 65px;
+  top: -425px;
+  left: 75px;
   transform: rotate(45deg);
 }
 .div5::after {
-  position: absolute;
-  top: 50px;
-  left: 40px;
-  background-color: white;
-  border: 2px solid white;
+  position: relative;
   border-radius: 50%;
+  border: 10px solid white;
+  top: 50px;
+  left: 45px;
   content: "★";
+  background-color: white;
 }
